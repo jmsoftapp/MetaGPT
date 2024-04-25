@@ -23,5 +23,5 @@ async def startup(idea: str):
     await company.run(n_round=5)  # 这个项目跑5轮
 
 if __name__ == "__main__":
-    asyncio.run(startup(idea="Write a program that automatically generates an intelligent agent Action, which is inherited from the Action class of the multi-agent framework MetaGPT"))  
+    asyncio.run(startup(idea="Write a user management API using FastAPI"))  
 
